@@ -1,0 +1,25 @@
+
+.catalog-itm {
+  position: relative;
+  margin-bottom: 30px;
+  display: block;
+  &:hover {
+    .catalog-itm__img {
+      opacity: 0.9;
+    }
+  }
+  &__img {
+    transition: 0.3s;
+  }
+  &__title {
+    font-size: 1.125rem;
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    display: inline-block;
+    background-color: $primary;
+    color: white;
+    bottom: 20px;
+    left: 20px;
+    margin-right: 20px;
+  }
+}

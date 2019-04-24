@@ -1,0 +1,9 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__itm {
+    margin-bottom: 30px;
+    flex: calc(25% - 30px) 0 0;
+  }
+}

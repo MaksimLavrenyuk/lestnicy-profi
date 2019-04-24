@@ -1,0 +1,85 @@
+//ШРИФТЫ
+@import "fonts/fonts";
+
+
+//ИКОНКИ
+@import "icons/icons";
+
+//ОБЩИЕ СТИЛИ ВСЕХ СТРАНИЦ
+
+//типографика
+@import "typography/typography";
+
+//БЛОКИ 
+// логотип
+@import "blocks/logo/logo";
+// секция
+@import "blocks/section/section";
+// контент страницы
+@import "blocks/page/page";
+// кнопка
+@import "blocks/btn/btn";
+// хедер меню
+@import "blocks/navbar/navbar";
+// Главный баннер
+@import "blocks/main-banner/main-banner";
+// Карточка продукта
+@import "blocks/card-product/card-product";
+// форма
+@import "blocks/form/form";
+// Модальное окно
+@import "blocks/modal/modal";
+// Мобильное меню
+@import "blocks/mobile-menu/mobile-menu";
+// body
+@import "blocks/body/body";
+// подписка
+@import "blocks/subscription/subscription";
+// преимущества
+@import "blocks/advantages/advantages";
+// каталог услуг
+@import "blocks/catalog-items/catalog-items";
+// особенности
+@import "blocks/features-itm/features-itm";
+// Продукция
+@import "blocks/products/products";
+// Достижения
+@import "blocks/progress/progress";
+
+@import "blocks/jumbotron/jumbotron";
+
+@import "blocks/list/list";
+
+@import "blocks/important-text/important-text";
+
+// хедер
+@import "blocks/header/header";
+//футер
+@import "blocks/footer/footer";
+
+//УТИЛИТЫ
+@import "utilities/utilities";
+
+// slick
+@import "slick-carousel/slick-carousel";
+
+// паттерны
+@import "pattern/pattern";
+
+//СТРАНИЦЫ
+
+@import "pages/index/index";
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	margin-top: auto;
+}

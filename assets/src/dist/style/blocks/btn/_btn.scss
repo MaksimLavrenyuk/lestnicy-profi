@@ -1,0 +1,10 @@
+.btn {
+	&-box-shadow {
+		box-shadow: 0px 5px 10px 0px rgba(140, 140, 140, 0.75);
+	}
+	&-radius {
+		border-radius: 1.25rem;
+	}
+}
+
+@import "btn-mediaqueries";

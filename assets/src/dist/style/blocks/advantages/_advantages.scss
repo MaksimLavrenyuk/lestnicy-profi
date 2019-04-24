@@ -1,0 +1,24 @@
+.advantages {
+  display: flex;
+  &__img {
+    margin-right: 1.5rem;
+    flex: 98px 0 0;
+    img {
+      border-radius: 50%;
+    }
+  }
+  &__content {
+
+  }
+  &__title {
+    font-size: 0.875rem;
+    color: rgb(0, 0, 0);
+    background-color: $primary;
+    padding: 0.5rem;
+    display: inline-block;
+  }
+  &__text {
+    margin-bottom: 0;
+  }
+}
+

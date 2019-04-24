@@ -1,0 +1,46 @@
+.header {
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 1.25rem 0 3.25rem 0;
+	}
+	&__logo {
+		margin-right: 0.5rem;
+	}
+	&__info {
+		padding: 0.625rem 1rem;
+		margin-bottom: 0;
+		margin-right: 0.5rem;
+	}
+	&__consult-btn {
+		margin-right: 0.5rem;
+	}
+
+	&__bottom {
+		bottom: -26px;
+		position: absolute;
+		width: calc(100% - 30px);
+		z-index: 2;
+	}
+
+}
+.header-tel {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	&__title {
+		display: inline-block;
+		margin-bottom: 0.5rem;
+	}
+	&__tel {
+		font-size: 1.125rem;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		font-style: italic;
+	}
+}
+
+
+@import "header-mediaqueries";

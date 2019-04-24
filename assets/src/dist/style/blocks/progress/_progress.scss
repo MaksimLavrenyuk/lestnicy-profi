@@ -1,0 +1,19 @@
+.progress {
+  &__title {
+    font-size: 3.5rem;
+    color: $primary;
+  }
+  &__text {
+    position: relative;
+    margin-bottom: calc(15px + 1rem);
+    &:after {
+      position: absolute;
+      bottom: -15px;
+      content: " ";
+      display: block;
+      height: 2px;
+      width: 40px;
+      background-color: $gray-400;
+    }
+  }
+}

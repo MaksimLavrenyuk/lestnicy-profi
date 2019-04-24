@@ -1,0 +1,32 @@
+.main-banner {
+	&__itm {
+		background-repeat: no-repeat;
+		background-position-y: center;
+		background-position-x: center;
+		background-size: cover;
+		min-height: 597px;
+		padding-top: 5.625rem;
+		padding-bottom: 5.625rem;
+	}
+	&__text {
+		color: rgb(255, 255, 255);
+		background-color: rgba(66, 29, 8, 0.7);
+		padding: 2.25rem 2.5rem 1.75rem 2.5rem;
+	}
+	&__title {
+		font-size: 2.25rem;
+		font-weight: bold;
+		display: inline-block;
+		margin-bottom: 1rem;
+	}
+	&__caption {
+		font-size: 1.125rem;
+		font-weight: bold;
+	}
+	&__btn {
+		margin-top: 2.5rem;
+	}
+}
+
+
+@import "main-banner-mediaqueries";

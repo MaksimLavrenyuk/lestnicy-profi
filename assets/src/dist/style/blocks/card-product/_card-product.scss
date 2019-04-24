@@ -1,0 +1,58 @@
+.card-product {
+	box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	&:hover {
+		text-decoration: none;
+		.card-product__img {
+			img {
+				transform: scale(1.2);
+			}
+		}
+	}
+	&__title {
+		font-size: 1rem;
+		margin-bottom: 1.5rem;
+		color: $body-color;
+	}
+	&__img {
+		background-color: rgba(55, 25, 9, 0.6);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		height: 190px;
+		img {
+			display: block;
+			width: 100%;
+			transition: 0.5s;
+		}
+	}
+	&__text {
+		font-size: 0.875rem;
+  		margin-bottom: 1rem;
+		color: lighten($body-color, 20%);
+	}
+	&__content {
+		padding:1rem 1.5rem 2rem;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+
+	}
+	&__footer {
+		margin-top: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__price {
+		font-size: 1.125rem;
+		font-weight: bold;
+		color: $primary;
+	}
+}
+
+@import "card-product-mediaqueries";

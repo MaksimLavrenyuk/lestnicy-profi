@@ -1,0 +1,24 @@
+.underline {
+	text-decoration: underline;
+}
+
+.font-size-small {
+	font-size: 0.75rem;
+}
+
+.font-size-big {
+	font-size: 1.125rem;
+}
+
+.font-size-md {
+	font-size: 1rem;
+}
+
+@media (max-width: $screen-width-lg) {
+	.m-lg-none {
+		margin: 0;
+	}
+	.pr-lg-none {
+		padding: 0;
+	}
+};
