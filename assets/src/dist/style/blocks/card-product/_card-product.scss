@@ -4,6 +4,7 @@
 	flex-direction: column;
 	&:hover {
 		text-decoration: none;
+
 		.card-product__img {
 			img {
 				transform: scale(1.2);
@@ -16,7 +17,7 @@
 		color: $body-color;
 	}
 	&__img {
-		background-color: rgba(55, 25, 9, 0.6);
+		background-color: #d7d7d7;
 		display: flex;
 		align-items: center;
 		justify-content: center;

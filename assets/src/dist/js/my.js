@@ -15,3 +15,5 @@ $(document).ready(function() {
 //= modal/modal.js
 
 //= form/form.js
+
+//= mobile-menu/mobile-menu.js

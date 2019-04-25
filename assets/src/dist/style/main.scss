@@ -22,10 +22,14 @@
 
 @import "../../../../node_modules/bootstrap/scss/jumbotron";
 
+@import "../../../../node_modules/bootstrap/scss/breadcrumb";
 
 // CSS для slick-carousel
 @import "../../../../node_modules/slick-carousel/slick/slick.scss";
 @import "../../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+// Служебные файлы для fancybox (после иниализации перевести в .scss; удалить в этом файле @supports)
+@import "../../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox";
 
 
 // Подключение своих SCSS файлов

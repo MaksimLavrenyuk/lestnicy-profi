@@ -14,6 +14,18 @@
 	font-size: 1rem;
 }
 
+.banner-img {
+	max-width: 100%;
+	&.lazy-loaded {
+		height: auto;
+	}
+}
+
+.text-highlight {
+	padding: 0.25rem 0.5rem;
+	background-color: $primary;
+	color: white;
+}
 @media (max-width: $screen-width-lg) {
 	.m-lg-none {
 		margin: 0;

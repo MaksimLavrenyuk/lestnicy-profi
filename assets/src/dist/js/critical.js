@@ -27,3 +27,4 @@ preloadImages(["dist/img/preloader.svg"]);
 
 // Импортируем ленивую загрузку
 //= ../../../../node_modules/lazyloadxt/dist/jquery.lazyloadxt.min.js
+//= ../../../../node_modules/lazyloadxt/dist/jquery.lazyloadxt.bg.js

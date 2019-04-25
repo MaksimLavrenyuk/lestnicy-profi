@@ -1,15 +1,25 @@
 @media (max-width: $screen-width-sm) {
 	.main-banner {
-		&__itm {
-			background-position-x: right;
-		}
+
 	}
 }
 
 @media (max-width: $screen-width-xs) {
 	.main-banner {
 		&__text {
-			font-size: 1.5rem;
+			padding: 1.5rem;
+		}
+		&__title {
+			font-size: 1.75rem;
+		}
+		&__btn {
+			display: inline-block;
+			width: 100%;
+		}
+		&__itm {
+			min-height: 500px;
+			padding-bottom: 4rem;
+			padding-top: 4rem;
 		}
 	}
 }

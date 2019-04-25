@@ -16,3 +16,12 @@
 		}
 	}
 }
+@media (max-width: $screen-width-xs) {
+	.footer {
+		&__logo {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}

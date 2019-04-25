@@ -1,0 +1,22 @@
+@media (max-width: $screen-width-md) {
+  .products {
+    &__itm {
+      flex: calc(100%/3 - 20px) 0 0;
+    }
+  }
+}
+@media (max-width: $screen-width-sm) {
+  .products {
+    &__itm {
+      flex: calc(100%/2 - 20px) 0 0;
+    }
+  }
+}
+
+@media (max-width: $screen-width-xs) {
+  .products {
+    &__itm {
+      flex: 100% 0 0;
+    }
+  }
+}

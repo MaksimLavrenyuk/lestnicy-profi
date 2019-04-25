@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2px;
+  margin-right: -2px;
+  &__itm {
+    display: block;
+    width: 25%;
+    flex: 25% 0 0;
+    border: 2px transparent solid;
+    transition: 0.5s;
+    &:hover,
+    &:focus {
+      opacity: 0.9;
+    }
+  }
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@import "gallery-mediaqueries";

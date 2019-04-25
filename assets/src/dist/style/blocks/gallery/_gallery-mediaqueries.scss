@@ -1,0 +1,19 @@
+@media (max-width: $screen-width-sm) {
+  .gallery {
+    &__itm {
+      width: calc(100% / 3);
+      flex: calc(100% / 3) 0 0;
+
+    }
+  }
+}
+
+@media (max-width: $screen-width-xs) {
+  .gallery {
+    &__itm {
+      width: 50%;
+      flex: 50% 0 0;
+
+    }
+  }
+}

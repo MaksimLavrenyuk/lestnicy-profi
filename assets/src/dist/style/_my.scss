@@ -47,10 +47,13 @@
 @import "blocks/progress/progress";
 
 @import "blocks/jumbotron/jumbotron";
-
 @import "blocks/list/list";
-
 @import "blocks/important-text/important-text";
+@import "blocks/breadcrumb/breadcrumb";
+@import "blocks/aside/aside";
+@import "blocks/menu-info/menu-info";
+@import "blocks/gallery/gallery";
+@import "blocks/feedback/feedback";
 
 // хедер
 @import "blocks/header/header";
@@ -80,6 +83,8 @@ body {
 	flex-direction: column;
 }
 
-.footer {
-	margin-top: auto;
+
+.lazy-hidden {
+	background: #d7d7d7 url('../../dist/img/preloader.svg') no-repeat 50% 50%;
+	transition: 0s;
 }

@@ -23,5 +23,23 @@
 			margin-right: auto;
 			margin-top: 1rem;
 		}
+		&__info {
+			width: 100%;
+			padding: 0.625rem 1rem;
+			margin-bottom: 0;
+			margin-right: 0;
+		}
+		&__logo {
+			margin-right: 0;
+			width: 100%;
+		}
+	}
+	.header-tel {
+		width: 100%;
+		flex-direction: column;
+		&__title {
+			margin-right: 0;
+			margin-bottom: 0.5rem;
+		}
 	}
 }

@@ -4,12 +4,17 @@
   margin-bottom: 30px;
   display: block;
   &:hover {
+    .catalog-itm__title {
+      background-color: darken($primary, 10%);
+    }
     .catalog-itm__img {
       opacity: 0.9;
     }
   }
   &__img {
-    transition: 0.3s;
+    width: 100%;
+    transition: 0.5s;
+
   }
   &__title {
     font-size: 1.125rem;
@@ -21,5 +26,37 @@
     bottom: 20px;
     left: 20px;
     margin-right: 20px;
+    transition: 0.5s;
+  }
+}
+
+.catalog-product {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  &__itm {
+    flex: calc(100%/3 - 30px) 0 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: $screen-width-md) {
+  .catalog-product {
+
+    &__itm {
+      flex: calc(100%/2 - 30px) 0 0;
+
+    }
+  }
+}
+
+@media (max-width: $screen-width-xs) {
+  .catalog-product {
+    margin-right: 0;
+    &__itm {
+      flex: 100% 0 0;
+      margin-right: 0;
+    }
   }
 }

@@ -1,0 +1,11 @@
+@media (max-width: $screen-width-xs) {
+  .progress {
+    text-align: center;
+    &__text:after {
+      margin-right: auto;
+      margin-left: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+}

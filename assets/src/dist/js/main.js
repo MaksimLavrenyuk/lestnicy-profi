@@ -8,6 +8,8 @@
 //= ../../../../node_modules/bootstrap/js/dist/modal.js
 // Импортируем телефонную валидацию
 //= ../../../../node_modules/jquery.maskedinput/src/jquery.maskedinput.js
+// Импортируем fancybox
+//= ../../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js
 
 
 // Импортируем другие js-файлы

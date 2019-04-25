@@ -1,0 +1,14 @@
+.feedback {
+  display: flex;
+  align-items: center;
+  padding: 2.875rem 2.5rem;
+  &__btn {
+    margin-right: 2rem;
+  }
+  &__text {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+  }
+}
+
+@import "feedback-mediaqueries";
